@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email Form</title>
+    <link rel= "stylesheet" href= "css/style.css">
+</head>
+<body>
+    <header>
+        Saliyha Webb
+    
+        <span id="nav">
+            <a href="#">Home</a>
+            <a href="myjobs.html">My Jobs</a> 
+            <a href="about.html">About Me</a>
+        </span>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="myjobs.html">My Jobs</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </div>
+    <main>
+
+        <form action="http://api.techlaunch.io:4004" method="post">
+            <input type="text" name="dest-email" placeholder="Send To"> 
+            <input type="text" name="full-name" placeholder= "Full Name"> 
+            <input type="text" name="phone" placeholder= "Phone #"> 
+            <input type="text" name="d_date" placeholder= "Date">
+            <input type="text" name="time" placeholder= "Time">
+            <input type="text" name="email" placeholder= "myemail@gmail.com">
+            <input type="text" name="subject" placeholder= "Subject">
+            <textarea name="message" cols="30" rows="10" placeholder="Enter Message Here"></textarea>
+            <input type="submit" name="submit">
+        </form>
+
+    </main>
+    
+    <footer>
+        swebb@techlaunch.io <br>
+        954-464-6101<br>
+        Miami, FL
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
